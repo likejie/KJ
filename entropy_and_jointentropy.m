@@ -33,8 +33,8 @@ result
 %?????
 
 %??????
-A=floor(rand(8,8).*255);
-B=floor(rand(8,8).*255);
+A=floor(rand(18,18).*255);
+B=floor(rand(18,18).*255);
 
 [M,N]=size(A);
 temp=zeros(256,256);
@@ -68,4 +68,5 @@ for i=1:size(temp,1)
         end
     end
 end
+
 result
